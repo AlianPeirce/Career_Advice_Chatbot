@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+	
+	<!--_____________________________________________________________________-->
+	
+	<category>
+	    
+	    <pattern>forensicsInterestingYES</pattern>
+	    
+	    <template>
+	        It sounds like COMPUTER FORENSIC INVESTIGATOR would be a great 
+	        career fit for you!
+	        
+	        <button>
+	            <text>Click here to learn more</text>
+	            <url>https://www.coursera.org/articles/computer-forensic-investigator</url>
+            </button>
+            
+	    </template>
+	    
+    </category>
+    
+    <!--_____________________________________________________________________-->
+    
+    <category>
+        
+        <pattern>forensicsInterestingNO</pattern>
+        
+        <template>
+            Do you enjoy troubleshooting general computer issues and 
+            working with hardware?
+            
+            <button>
+                <text>Yeah, I love stuff like that!</text>
+                <postback>repairTechnicianYES</postback>
+            </button>
+            
+            <button>
+                <text>No, it's not my cup of tea.</text>
+                <postback>repairTechnicianNO</postback>
+            </button>
+            
+        </template>
+        
+    </category>
+	
+	<!--_____________________________________________________________________-->
+	
+	
+</aiml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<!--_____________________________________________________________________-->
+	
+    <category>
+        
+        <pattern>repairTechnicianYES</pattern>
+        
+        <template>
+            It sounds like COMPUTER REPAIR TECHNICIAN might be the perfect 
+            career for you!
+            
+            <button>
+                <text>Click here to learn more</text>
+                <url>https://www.fieldengineer.com/skills/computer-repair-technician</url>
+            </button>
+            
+        </template>
+        
+    </category>
+    
+    <!--_____________________________________________________________________-->
+    
+    <category>
+        
+        <pattern>repairTechnicianNO</pattern>
+        
+        <template>
+            Which part of the software development process do you enjoy the 
+            most?
+            
+            <button>
+                <text>Programming</text>
+                <postback>enjoysProgramming</postback>
+            </button>
+            
+            <button>
+                <text>Design</text>
+                <postback>enjoysDesign</postback>
+            </button>
+            
+            <button>
+                <text>Other / Neither</text>
+                <postback>enjoysNeither</postback>
+            </button>
+            
+        </template>
+        
+    </category>
+	
+	<!--_____________________________________________________________________-->
+	
+	
+</aiml>

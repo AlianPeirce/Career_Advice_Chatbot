@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    
+    <category>
+        
+        <pattern>*</pattern>
+        
+        <template>
+            I'm sorry, I don't understand.<br/><br/>
+            
+            If you are answering a question, please use the provided buttons 
+            to do so.<br/><br/>
+            
+            Alternatively, please use the following button if you wish to 
+            start or restart the chat session:
+            
+            <button>
+                <text>Start / Restart</text>
+                <postback>HELLO</postback>
+            </button>
+            
+        </template>
+        
+    </category>
+    
+    
+    <category>
+        
+        <pattern>^ HELLO ^</pattern>
+        
+        <template>
+            
+            Hey there, I'm Charlie the chatbot! I can recommend careers to you 
+            based on your interests and personality.<br/><br/>
+            
+            Would you like to continue?
+            
+            <button>
+                <text>Yeah, let's get started!</text>
+                <postback>continueTalkingYES</postback>
+            </button>
+            
+            <button>
+                <text>No, I'm not interested.</text>
+                <postback>continueTalkingNO</postback>
+            </button>
+            
+        </template>
+        
+    </category>
+    
+    
+    <category>
+        <pattern>^ HEY ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HI ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HAI ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HEYO ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HEYA ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT IS UP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATS UP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT UP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WASSUP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WASUP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WATTUP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATTUP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ SUP ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT IS GOOD ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATS GOOD ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GREETINGS ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GREETING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GOOD MORNING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GOOD AFTERNOON ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GOOD EVENING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GOOD NIGHT ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GOOD DAY ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOW DO YOU DO ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOW ARE YOU ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOW IS IT GOING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOWS IT GOING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOW IS LIFE ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOWS LIFE ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ YO ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT IS SHAKING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATS SHAKING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT IS SHAKIN ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATS SHAKIN ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT IS POPPING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATS POPPING ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHAT IS POPPIN ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WHATS POPPIN ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ START ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ BEGIN ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ COMMENCE ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ GO ^</pattern>
+        <template><srai>^ HELLO ^</srai></template>
+    </category>
+    
+    
+    
+  
+</aiml>

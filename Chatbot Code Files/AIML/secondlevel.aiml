@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	
+    
+    <category>
+      
+        <pattern>
+            continueTalkingYES
+        </pattern>
+        
+        <template>
+            Are you currently pursuing a degree in computer science?
+            
+            <button>
+                <text>Yes, I'm a CS major.</text>
+                <postback>csDegreeYES</postback>
+            </button>
+            
+            <button>
+                <text>No, I'm majoring in something else.</text>
+                <postback>csDegreeNO</postback>
+            </button>
+            
+        </template>
+    
+    </category>
+    
+    
+    <!--_____________________________________________________________________-->
+    
+    
+    <category>
+      
+        <pattern>
+            continueTalkingNO
+        </pattern>
+        
+        <template>
+            Well, it was great meeting you! I hope you have a wonderful day.<br/><br/>
+            
+            Goodbye!
+        </template>
+    
+    </category>
+	
+	
+	
+	
+</aiml>

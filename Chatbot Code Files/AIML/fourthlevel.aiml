@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<!--_____________________________________________________________________-->
+	
+    <category>
+        
+        <pattern>likesDatabasesYES</pattern>
+        
+        <template>
+            It sounds like DATABASE ADMINISTRATOR might be the job for you!
+            
+            <button>
+                <text>Click here to learn more</text>
+                <url>https://www.codecademy.com/resources/blog/what-does-a-database-administrator-do/</url>
+            </button>
+            
+        </template>
+        
+    </category>
+    	
+    <!--_____________________________________________________________________-->
+    	
+    <category>
+        
+        <pattern>likesDatabasesNO</pattern>
+        
+        <template>
+            Does gathering digital evidence during criminal investigations sound 
+            interesting to you?
+            
+            <button>
+                <text>Yeah, that sounds pretty neat!</text>
+                <postback>forensicsInterestingYES</postback>
+            </button>
+            
+            <button>
+                <text>No, that's not my thing.</text>
+                <postback>forensicsInterestingNO</postback>
+            </button>
+            
+        </template>
+        
+    </category>
+	
+    <!--_____________________________________________________________________-->
+
+    <category>
+        
+        <pattern>notCSmajorAndContinueNO</pattern>
+        
+        <template>
+            I'm sorry that I couldn't be of service.<br/><br/>
+            
+            Please contact a career advisor in your department of study to 
+            discuss career options.<br/><br/>
+            
+            Have a nice day!
+        </template>
+        
+    </category>
+    
+    <!--_____________________________________________________________________-->
+    
+
+</aiml>

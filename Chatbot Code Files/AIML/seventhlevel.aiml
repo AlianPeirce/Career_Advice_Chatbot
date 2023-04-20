@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<!--_____________________________________________________________________-->
+	
+	<category>
+	    
+	    <pattern>enjoysProgramming</pattern>
+	    
+	    <template>
+	        It sounds like BACK-END SOFTWARE DEVELOPER is a great 
+	        career option for you!
+	        
+	        <button>
+	            <text>Click here to learn more</text>
+	            <url>https://www.codecademy.com/resources/blog/what-does-a-back-end-developer-do/</url>
+	            
+            </button>
+            
+	    </template>
+	    
+    </category>
+    
+    <!--_____________________________________________________________________-->
+    
+    <category>
+        
+        <pattern>enjoysDesign</pattern>
+        
+        <template>
+	        It sounds like FRONT-END SOFTWARE DEVELOPER is a great 
+	        career option for you!
+	        
+	        <button>
+	            <text>Click here to learn more</text>
+	            <url>https://www.coursera.org/articles/front-end-developer</url>
+	            
+            </button>
+            
+	    </template>
+	    
+    </category>
+    
+    <!--_____________________________________________________________________-->
+    
+    <category>
+        
+        <pattern>enjoysNeither</pattern>
+        
+        <template>
+            Hmm....this is challenging!<br/><br/>
+            
+            You don't seem to be a good fit for any of the careers that I 
+            know about.<br/><br/>
+            
+            <link>
+                <text>Click here to learn about other career options!</text>
+                <url>https://www.careermatch.com/job-prep/career-insights/articles/majoring-in-computer-science-100-careers-to-consider/</url>
+            </link>
+            
+        </template>
+        
+    </category>
+	
+	<!--_____________________________________________________________________-->
+	
+	
+</aiml>

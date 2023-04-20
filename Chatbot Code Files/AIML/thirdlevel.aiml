@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	
+    <category>
+        
+        <pattern>csDegreeYES</pattern>
+        
+	    <template>
+	        Do you enjoy working with data and/or databases?
+	        
+	        <button>
+	            <text>Yes, I love working with data!</text>
+	            <postback>likesDatabasesYES</postback>
+            </button>
+            
+            <button>
+                <text>No, I'm not a fan.</text>
+                <postback>likesDatabasesNO</postback>
+            </button>
+            
+	    </template>
+	    
+    </category>
+    
+    
+    <!--_____________________________________________________________________-->
+    
+    
+    <category>
+        
+        <pattern>csDegreeNO</pattern>
+        
+        <template>
+            I can only offer advice regarding jobs related to computer science.<br/><br/>
+            Do you still want to continue?
+            
+            <button>
+                <text>Yes, I still want career advice!</text>
+                <postback>csDegreeYES</postback>
+            </button>
+            
+            <button>
+                <text>No, I'm not interested.</text>
+                <postback>notCSmajorAndContinueNO</postback>
+            </button>
+            
+        </template>
+        
+    </category>
+	
+	
+	
+</aiml>
